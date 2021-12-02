@@ -6,10 +6,10 @@ echo "Enter third number"
 read n3
 if [ $n1 -gt $n2 ] && [ $n1 -gt $n3 ]
 then
-echo "n1 is the largest"
+echo "First number is the largest"
 elif [ $n2 -gt $n1 ] && [ $n2 -gt $n3 ]
 then
-echo "n2 is the largest"
+echo "Second number is the largest"
 else
-echo "n3 is largest"
+echo "Third number is largest"
 fi
